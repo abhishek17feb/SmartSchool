@@ -1,0 +1,2 @@
+# SmartSchool
+Smart School Application
