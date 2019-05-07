@@ -1,4 +1,4 @@
-package com.smart.school.service;
+package com.smart.school.resource;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/v1/principal")
-public class PrincipalService {
+public class PrincipalResource {
 
 	@PostMapping("/add")
 	public ResponseEntity<String> addPrincipal() {
